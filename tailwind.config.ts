@@ -30,13 +30,17 @@ export default {
           dark: "#4A3B80",
         },
         secondary: {
-          DEFAULT: "#F1F0FB",
+          DEFAULT: "#F2FCE2",
           foreground: "#4A4A4A",
         },
         accent: {
-          DEFAULT: "#9b87f5",
+          DEFAULT: "#D3E4FD",
           foreground: "#FFFFFF",
         },
+        spiritual: {
+          DEFAULT: "#FEF7CD",
+          light: "#FFDEE2",
+        }
       },
       fontFamily: {
         sans: ["Inter", "sans-serif"],
