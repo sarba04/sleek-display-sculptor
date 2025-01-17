@@ -4,6 +4,7 @@ import { Calendar, Heart, Users, Sun, BookOpen, Star, ArrowRight, MapPin, Music,
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useToast } from "@/components/ui/use-toast";
+import Navbar from "@/components/layout/Navbar";
 
 const Index = () => {
   const { toast } = useToast();
@@ -65,6 +66,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
+      <Navbar />
       {/* Hero Section amélioré */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div 
